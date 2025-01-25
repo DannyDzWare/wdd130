@@ -9,7 +9,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-header, .grid, footer {
+header, footer, .grid {
   max-width: 840px;
   margin: 0 auto;
 }
@@ -42,8 +42,8 @@ nav a {
 
   .grid {
     display: grid;
-    grid-template-columns: repeat(2, 50%);
     align-items: center;
+    grid-template-columns: repeat(2, 50%);
   }
 
   main {
