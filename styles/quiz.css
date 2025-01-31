@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+header h1 {
+    margin: 1rem;
+    font-size: 24px;;
+    color: blue;
+    text-align: center;
+}
+
+body {
+    font-family: Merriweather, Georgia, serif;
+    font-size: 16px;
+    background-color: white;
+    color: #222;
+}
+
+.quiz-title {
+    display: flex;
+    align-items: center; 
+    width: 650px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: left;
+    gap: 10px;
+}
+
+.quiz-title h2{
+    margin: 0;
+    font-size: 20px;
+    color: navy;
+    white-space: nowrap;
+}
+
+.quiz-title input{
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    accent-color: navy;
+}
+
+.quiz-container {
+    margin: 0 auto;
+    width: 650px;
+    background: #eee;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+label b {
+    color: navy;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+.code-block {
+    background-color: #2d2d2d;
+    color: #fff;
+    font-family: monospace;
+    padding: 20px;
+    margin: 5px 30px;
+}
+
+button {
+    background-color: #000080;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0000a0;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+  }
