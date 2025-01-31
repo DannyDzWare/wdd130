@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Daniel Dzierzon | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+              <legend>Contact Information</legend>
+              <!-- form elements will go here -->
+               <label for="fullname">Full Name:</label>
+               <input type="text" id="fullname" name="fullname"><br>
+               <label>Email: <input type="email" name="useremail"></label><br>
+            </fieldset>
+            <fieldset>
+              <legend>Questions</legend>
+              <!-- form elements will go here -->
+              <label for="browser">What is your favourite browser?</label>
+              <select id="browser" name="browser">
+                <option value="safari">Safari</option>
+                <option value="firefox">Firefox</option>
+                <option value="chrome">Chrome</option>
+                <option value="other">Other</option>
+              </select><br>
+
+              <label>Do you have a household pet?<input type="checkbox" name="pet"></label><br>
+              <label for="feedback">List the places you have lived.</label>
+              <textarea id="feedback" name="feedback" rows="4" placeholder="Germany"></textarea>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+          </form>
+    </main>
+    <footer>
+        <p>©2025 | HTML Form - User Poll Activity | Daniel Dzierzon</p>
+    </footer>
+</body>
+</html>
