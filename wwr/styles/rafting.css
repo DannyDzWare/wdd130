@@ -482,7 +482,7 @@ button {
     align-items: center;
     align-content: center;
     place-items: center;
-    color: var(--primary-color);
+    color: var(--accent2-color);
     font-family: var(--heading-font);
 }
 
