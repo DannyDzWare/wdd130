@@ -211,7 +211,7 @@ main {
     text-align: center;
     display: grid;
     grid-template: 20% 80% / 1fr 1fr;
-    grid-gap: 20px o;
+    grid-gap: 20px 0;
     align-items: center;
     align-content: center;
     place-items: center;
@@ -456,3 +456,131 @@ button {
   button:hover {
     background-color: darkgreen;
   }
+
+
+  /* Trips Page */
+
+.trips{
+    margin: 50px auto;
+    border: 1px solid var(--accent1-color);
+    padding: 20px;
+    text-align: center;
+}
+
+.trips h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: var(--accent1-color);
+    font-family: var(--heading-font);
+}
+
+.trips .trips-grid{
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    grid-gap: 20px 5px;
+    align-items: center;
+    align-content: center;
+    place-items: center;
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+}
+
+.trips .trips-grid .column1{
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.trips .trips-grid .column1 img{
+    width: 100%;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.trips .trips-grid .column1 p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: var(--accent2-color);
+}
+
+.trips .trips-grid .column2{
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.trips .trips-grid .column2 img{
+    width: 100%;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.trips .trips-grid .column2 p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: var(--accent2-color);
+}
+
+.trips .trips-grid .column3{
+    grid-column: 3;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.trips .trips-grid .column3 img{
+    width: 100%;
+}
+
+.trips .trips-grid .column3 p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: var(--accent2-color);
+}
+
+.trip-table{
+    margin: 50px auto;
+    border: 1px solid var(--accent1-color);
+    padding: 20px;
+    text-align: center;
+}
+.trip-table h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: var(--accent1-color);
+    font-family: var(--heading-font);
+}
+
+  .trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.trip-table th, .trip-table td {
+    
+    padding: 15px;
+    text-align: center;
+}
+
+.trip-table th {
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+    font-size: 1.2rem;
+}
+
+.trip-table td {
+    font-size: 1rem;
+    color: #17354B;
+}
